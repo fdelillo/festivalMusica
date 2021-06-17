@@ -9,6 +9,10 @@ box-sizing: inherit;
 body {
     font-family: $fuentePrincipal;
     font-size: 1.6rem;
+
+    &.fijar-body {
+        overflow: hidden;
+    }
 }
 
 p {
@@ -25,6 +29,9 @@ a {
 }
 img {
     max-width: 100%;
+}
+h1, h2, h3 {
+    margin: 0;
 }
 h1 {
     font-size: 4rem;
